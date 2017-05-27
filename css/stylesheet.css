@@ -1,0 +1,342 @@
+@charset "utf-8";
+
+
+/*-------------------------
+共通部分
+---------------------------*/
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+/*-------------------------
+ヘッダー
+---------------------------*/
+header {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(34,49,52,0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.logo {
+  width: 80px;
+  margin-top: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  transition: all 0.5s;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+
+/*-------------------------
+ナビゲーションバー
+---------------------------*/
+.nav_item {
+    float:left;
+    width: 120px;
+    padding:5px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*-------------------------
+トップ
+---------------------------*/
+.top-wrapper {
+  height:400px;
+  padding: 200px 0 50px 0;
+  background-image: url("../image/pc.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+
+.top-wrapper h1 {
+  color: white;
+  opacity: 0.9;
+  font-size: 50px;
+  letter-spacing: 6px;
+  margin-bottom: 5px;
+}
+
+.top-wrapper p {
+  color: white;
+  opacity: 0.9;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+
+/*-------------------------
+ボタン達
+---------------------------*/
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.btn {
+  padding: 10px 26px;
+  color: white;
+  display: inline-block;
+  opacity: 0.9;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  background-color: #ff4545;
+  margin-top: 40px;
+}
+
+.green {
+  background-color: #1abc9c;
+  margin-top: 40px;
+}
+
+/*-------------------------
+特徴
+---------------------------*/
+.feature-wrapper {
+  height: 350px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.feature-wrapper h2{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #ff4545;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.feature {
+  float: left;
+  width: 33.333%;
+  position: relative
+}
+
+
+.feature h3 {
+  position: absolute;
+  top: 200px;
+  right: 150px;
+  color: #434343;
+  font-size:20px;
+}
+
+
+.feature p {
+  position: absolute;
+  top: 225px;
+  right: 60px;
+  width: 70%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #434343;
+}
+
+
+/*-------------------------
+コンセプト
+---------------------------*/
+.concept-wrapper {
+  height: 400px;
+  padding-bottom: 10px;
+/*  background-blend-mode: screen ;
+  background-image: url("../image/pc.jpg");
+  background-size: cover;*/
+  background-color:rgba(255,69,69,0.99);
+  text-align: center;
+}
+
+
+.concept-wrapper h2{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: white;
+  opacity: 0.85;
+  font-size: 28px;
+}
+
+
+.concept-wrapper h3{
+  color: white;
+  opacity: 0.85;
+  font-size:22px;
+  letter-spacing: 1px;
+}
+
+
+.concept-wrapper p {
+  color: white;
+  opacity: 0.85;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+
+
+/*-------------------------
+使い方
+---------------------------*/
+.howto-wrapper {
+  height: 600px;
+  padding-bottom: 100px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.howto-wrapper h2{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #ff4545;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.howto {
+  float: left;
+  width: 50%;
+}
+
+.howto img{
+  width: 80%;
+}
+
+
+/*-------------------------
+事例
+---------------------------*/
+.case-wrapper {
+  height: 500px;
+  padding-bottom: 40px;
+  background-color: white;
+  text-align: center;
+}
+
+.case-wrapper h2{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #ff4545;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.case-wrapper a{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: #434343;
+  font-size: 12px;
+}
+
+.case {
+  float: left;
+  width: 33.333%;
+}
+
+.case img {
+  width: 80%;
+  height: 80%;
+}
+
+.case h3 {
+  color: #ff4545;
+  font-size:20px;
+}
+
+.case p {
+  width: 70%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #434343;
+}
+
+
+
+/*-------------------------
+メッセージ
+---------------------------*/
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message-wrapper h2 {
+  font-size: 18px;
+  color: #434343;
+  margin-bottom: 20px;
+}
+
+
+.message {
+  padding: 15px 40px;
+  background-color: #ff4545;
+  cursor: pointer;
+  box-shadow: 0px 7px #994545;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+/*-------------------------
+フッター
+---------------------------*/
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+}
