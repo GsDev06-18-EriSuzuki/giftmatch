@@ -26,8 +26,8 @@
           <li class="nav_item"><a href="#concept">コンセプト</a></li>
           <li class="nav_item"><a href="#howto">使い方</a></li>
           <li class="nav_item"><a href="#case">事例</a></li>
-          <li class="nav_item"><a href="#">ログイン</a></li>
-          <li class="nav_item"><a href="#signup">会員登録</a></li>
+          <li class="nav_item"><a href="login.php">ログイン</a></li>
+          <li class="nav_item"><a href="signup.php">会員登録</a></li>
         </ul>
         </nav>
       </div>
@@ -44,7 +44,7 @@
       クラウドソーシング＆ジョブマッチングサイトです。<br>
       得意を活かして実績を積み、自分らしい働き方をしたい方の仕事探しを応援します。</p>
       <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
+        <a href="signup.php" class="btn signup">新規登録はこちら</a>
       </div>
     </div>
   </div>
@@ -59,17 +59,17 @@
         <div class="feature">
             <img src="image/roope.png">
             <h3>仕事を探す</h3>
-          <p>ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
+          <p>企業・個人の方がクラウドソーシングで依頼する仕事の中から、自分のスキルや知見のある仕事を探して、受けることが出来ます。</p>
         </div>
         <div class="feature">
             <img src="image/score.png">
             <h3>実績をつむ</h3>
-          <p>ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
+          <p>得意やスキルを活かした仕事で、実績をつみながら成果・評価をためていくことが出来ます。</p>
         </div>
         <div class="feature">
             <img src="image/add.png">
             <h3>企業オファー</h3>
-          <p>ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
+          <p>あなたの実績を見た企業からのオファーを受けられます。障害をオープンにして、自分らしく、スキルを活かした就職活動が出来ます。</p>
         </div>
       </div>
     </div>
@@ -80,19 +80,24 @@
   <div id="concept" class="concept-wrapper">
     <div class="container">
         <h2>CONCEPT</h2>
-        <h3>世界を震わすチーズを創ろう。</h3>
+        <h3>偏りを活かして、自分らしく働こう</h3>
         <p>
-            今、世界中の人たちが足りないと感じている、栄養素があります。<br />
-            その栄養は『カルシウム』と『マグネシウム』<br />
-            小さい子供の成長に欠かせないカルシウム<br />
-            イライラをなくすには欠かせないカルシウム<br />
-            今まで食べたことのないチーズから取れるカルシウム<br />
-            そんな悩みを抱えているあなたこそ、<br />
-            プロレベルのチーズ作りスキルを持つべきだと思うのです。<br />
+            テキストテキストテキストテキストテキストテキスト<br />
+            テキストテキストテキストテキストテキストテキスト<br />
+            テキストテキストテキストテキストテキストテキスト<br />
+            テキストテキストテキストテキストテキストテキスト<br />
+            テキストテキストテキストテキストテキストテキスト<br />
+            テキストテキストテキストテキストテキストテキスト<br />
+            テキストテキストテキストテキストテキストテキスト<br />
         </p>
         <p>
-            できるだけ多くの若い人に本格的なチーズ作りのスキルを学ぶ機会を創りたい。<br />
-            そして願わくば、この場所から世界中の多くの人がおいしいと言えるような新感覚のチーズが生まれてほしい。
+            テキストテキストテキストテキストテキストテキスト<br />
+            テキストテキストテキストテキストテキストテキスト<br />
+            テキストテキストテキストテキストテキストテキスト<br />
+            テキストテキストテキストテキストテキストテキスト<br />
+            テキストテキストテキストテキストテキストテキスト<br />
+            テキストテキストテキストテキストテキストテキスト<br />
+            テキストテキストテキストテキストテキストテキスト<br />
         </p>
     </div>
   </div>
@@ -105,11 +110,11 @@
       <div class="howtos">
         <div class="howto">
             <img src="image/jobsearch.png">
-            <a href="#" class="btn signup">登録して仕事を受ける</a>
+            <a href="signup.php" class="btn signup">登録して仕事を受ける</a>
         </div>
         <div class="howto">
             <img src="image/joborder.png">
-            <a href="#" class="btn green">登録して仕事を依頼する</a>
+            <a href="signup.php" class="btn green">登録して仕事を依頼する</a>
         </div>
       </div>
     </div>
@@ -151,7 +156,7 @@
     <div class="container">
         <h2>さぁ、あなたも偏りを活かして自分らしく働きませんか?</h2>
       </div>
-      <span class="btn message">会員登録してはじめる</span>
+      <a class="btn message" href="signup.php">会員登録してはじめる</a>
     </div>
   </div>
 

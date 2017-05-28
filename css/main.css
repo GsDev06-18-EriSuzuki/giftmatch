@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+
+/*-------------------------
+共通部分
+---------------------------*/
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+
+/*-------------------------
+ヘッダー
+---------------------------*/
+header {
+  height: 70px;
+  width: 100%;
+  background-color: rgba(34,49,52,0.9);
+}
+
+.logo {
+  width: 80px;
+  margin-top: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  transition: all 0.5s;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+
+
+/*-------------------------
+ナビゲーションバー
+---------------------------*/
+
+
+/*-------------------------
+ボタン達
+---------------------------*/
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.btn {
+  padding: 10px 26px;
+  color: white;
+  display: inline-block;
+  opacity: 0.9;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  background-color: #ff4545;
+  margin-top: 40px;
+}
+
+.green {
+  background-color: #1abc9c;
+  margin-top: 40px;
+}
+
+
+/*-------------------------
+会員登録・ログイン
+---------------------------*/
+.signup-wrapper {
+  height: 350px;
+  margin-top: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.signup-wrapper h2{
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: #434343;
+  letter-spacing: 2px;
+}
+
+.signup-wrapper label{
+  font-size: 16px;
+  color: #434343;
+}
+
+.form-control{
+  height: 20px;
+  width:300px;
+}
+
+
+.form-group{
+  margin-bottom: 20px;
+}
+
+.comment{
+  font-size: 12px;
+  color: #434343;
+}
+
+
+
+/*-------------------------
+フッター
+---------------------------*/
+footer {
+  padding-top: 30px;
+  text-align: center;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
