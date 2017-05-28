@@ -17,7 +17,7 @@ function ssidCheck(){
 
 //DB接続関数（PDO）
 function db_con(){
-  $dbname='GM_db';
+  $dbname='eri-r-suzuki_gm_db';
   try {
     $pdo = new PDO('mysql:dbname='.$dbname.';charset=utf8;host=localhost','root','suzuki1102');
   } catch (PDOException $e) {

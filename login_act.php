@@ -16,7 +16,7 @@ if(
 $pdo = db_con();
 
 //３．データ登録SQL作成
-$sql="SELECT * FROM user_table WHERE user_mail=:user_mail AND user_pass=:user_pass ";
+$sql="SELECT * FROM gm_user_table WHERE user_mail=:user_mail AND user_pass=:user_pass ";
 $stmt = $pdo->prepare($sql);
 $stmt->bindValue(':user_mail', $_POST["user_mail"]);
 $stmt->bindValue(':user_pass', $_POST["user_pass"]);
@@ -34,7 +34,7 @@ $val = $stmt->fetch(); //1レコードだけ取得する方法
 //6. 該当レコードがあればSESSIONに値を代入
 if( $val["id"] != "" ){
   $_SESSION["schk"] = session_id();
-  $_SESSION["user_id"]=$val["user_id"];
+  $_SESSION["user_name"]=$val["user_name"];
   header("Location: mypage.php");
 }else{
   //logout処理を経由して全画面へ
