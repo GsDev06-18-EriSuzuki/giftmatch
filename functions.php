@@ -19,7 +19,7 @@ function ssidCheck(){
 function db_con(){
   $dbname='eri-r-suzuki_gm_db';
   try {
-    $pdo = new PDO('mysql:dbname='.$dbname.';charset=utf8;host=localhost','root','suzuki1102');
+    $pdo = new PDO('mysql:dbname='.$dbname.';charset=utf8;host=mysql610.db.sakura.ne.jp','eri-r-suzuki','suzuki1102');
   } catch (PDOException $e) {
     exit('DbConnectError:'.$e->getMessage());
   }

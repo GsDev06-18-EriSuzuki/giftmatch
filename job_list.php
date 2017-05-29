@@ -67,33 +67,6 @@ if($status==false){
 </header>
 
 
-<!--プロフィールー-->
-<div class="container">
-  <div class="profile-wrapper">
-  <h2>プロフィール</h2>
-  <img src="image/hito.png">
-  <table>
-  <tr>
-    <td>ユーザー名</td>
-    <td>：<?php echo $_SESSION["user_name"] ?></td>
-  </tr>
-  <tr>
-    <td>スキル</td>
-    <td>：未登録</td>
-  </tr>
-  <tr>
-    <td>企業への就職希望</td>
-    <td>：未登録</td>
-  </tr>
-  </table>
-  <h3>プロフィールを充実させましょう！</h3>
-      <div class="btn-wrapper">
-        <a href="profile_detail.php" class="btn pink">詳細プロフィールを入力</a>
-        </div>
-
-  </div>
-</div>
-
 <!--仕事一覧ー-->
 <div class="container">
   <div class="jobboard-wrapper">
